@@ -12,6 +12,7 @@ class ImportMapExtension(Extension):
 
     def __init__(self, env: Environment):
         super().__init__(env)
+        self.env.globals["importmap"] = scan_packages
 
     def parse(self, parser: Parser) -> Union[Node, List[Node]]:
         raise NotImplementedError

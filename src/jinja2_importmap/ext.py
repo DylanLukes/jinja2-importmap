@@ -16,3 +16,6 @@ class ImportMapExtension(Extension):
 
     def parse(self, parser: Parser) -> Union[Node, List[Node]]:
         raise NotImplementedError
+
+
+importmap = ImportMapExtension

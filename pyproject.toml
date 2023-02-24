@@ -30,5 +30,8 @@ jinja2_importmap = "jinja2_importmap.__main__:main"
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools_scm]
+write_to = "src/jinja2_importmap/_version.py"
+
 [tool.pytest.ini_options]
 addopts = "--doctest-modules"

@@ -4,7 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jinja2-importmap"
-version = "0.1.0"
 description = "Configurable generation of importmaps, from Jinja2, Python, or shell."
 readme = "README.md"
 requires-python = ">=3.8"
